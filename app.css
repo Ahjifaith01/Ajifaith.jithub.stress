@@ -1,0 +1,342 @@
+/**first page**/
+.all{
+    height: 800px;
+    background:linear-gradient(to bottom, #2196f3 0%,white 100% );}
+    
+.body{
+    position: absolute;
+    text-align:left;
+    
+}
+
+.body h2{
+    color:lightgrey;   
+}
+.main h3{
+    color:black;
+
+}
+.body input{
+    border-radius: 10px;
+    border-color:grey;
+    border-width:6px;
+    width: 200px;  
+    height: 30px; 
+    margin:1px;
+    text-align: left;
+    padding: 8px;
+    
+    
+}
+.body button{
+    border-radius: 100px;
+    width: 230px;
+    height:50px;
+    background-color:dimgrey;
+    color:white;
+    border-color: white;
+    border-width: 5px;
+    
+}    
+/**2nd page**/
+
+#top{
+    border-style: solid;
+    background-color: #2196f3;
+    border-radius: 50px;
+    border-bottom-width: 20px; 
+    border-color:grey;
+    height: 250px;
+    color:dimgray;
+    
+}
+#both{
+    display: flex;
+    justify-content:space-around;
+}
+#top h2{
+    
+    color:white;
+    margin-left:140px;
+}
+#top h4{
+    color:white;
+}
+
+
+/**2nd page middle**/
+
+#addnew p{
+    display:flex;
+    justify-content:start;
+    border-radius: 20px;
+    border-color: #2196f3;
+    background-color: #2196f3;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin-right:100px;
+    width:1220px;
+}
+#middle a{
+    color:dimgray;
+    text-decoration-line: none;
+   
+}
+#middle{
+
+    padding-right:15px;
+    margin-bottom: 40px;
+}
+
+#mido{display: flex;
+    justify-content: space-around;
+    color: dimgrey;
+    margin: 20px;
+    
+}
+
+#mid{
+    display: flex;
+    justify-content: space-around;
+    color: dimgrey;
+    margin: 20px;
+    padding-bottom: 85px;
+
+}
+#tran{
+
+    background-color:whitesmoke;
+    width:80px;
+    height: 45px;
+    border-color: #2196f3;
+    color:dimgrey;
+    border-radius: 10px;
+    align-content:space-evenly;
+    padding-bottom: 40px;
+    
+}
+
+#pay{
+
+    background-color:whitesmoke;
+    width:80px;
+    height: 45px;
+    border-color: #2196f3;
+    color:dimgrey;
+    border-radius: 10px;
+    align-content:space-evenly;
+    padding-bottom: 40px;
+}
+#sell{
+    background-color:whitesmoke;
+    width:80px;
+    height: 45px;
+    border-color: #2196f3;
+    color:dimgrey;
+    border-radius: 10px;
+    align-content: space-around;
+    padding-bottom: 40px;
+}
+
+
+#pro{
+    background-color:whitesmoke;
+    width:80px;
+    height:45px;
+    border-color: #2196f3;
+    color:dimgray;
+    border-radius: 10px;
+    align-content:space-around;
+    padding-bottom: 40px;
+
+}
+#pro a{
+    
+    color:dimgray;
+    text-decoration-line: none;
+    
+    }
+#ai{
+    background-color:whitesmoke;
+    width:200px;
+    height:100px;
+    border-color: #2196f3;
+    color:dimgray;
+    border-radius: 10px;
+    align-content:space-around;
+    padding-bottom: 40px;
+}
+#fin{
+    background-color:whitesmoke;
+    width:200px;
+    height:100px;
+    border-color: #2196f3;
+    color:dimgray;
+    border-radius: 10px;
+    align-content:space-around;
+    padding-bottom: 40px;
+}
+
+#cam{
+            background-color:whitesmoke;
+            width:200px;
+            height:100px;
+            border-color: #2196f3;
+            color:dimgray;
+            border-radius: 10px;
+            align-content:space-around;}
+ #stoc{
+                background-color:whitesmoke;
+                width:200px;
+                height:100px;
+                border-color: #2196f3;
+                color:dimgray;
+                border-radius: 10px;
+                align-content:space-around;}
+#hist{
+                    background-color:whitesmoke;
+                    width:200px;
+                    height:100px;
+                    border-color: #2196f3;
+                    color:dimgray;
+                    border-radius: 10px;
+                    align-content:space-around;}
+ul {
+    background-color: dimgrey;
+    display: flex;
+    justify-content:space-evenly ;
+    list-style-type: none;
+    border-radius: 30px;
+height:40px ;
+border-width: 20px;
+padding-top: 20px;
+border-color:whitesmoke;
+padding-bottom:0px;
+}
+
+.active{
+    background-color: #2196f3;
+}
+     
+li a{
+    
+    
+color: white;
+text-decoration: none;
+
+}
+
+li a:hover {
+
+    background-color: #2196f3;
+}
+/**setting page**/
+
+#set{ text-align: start;
+}
+#Setting p{
+
+color: dimgrey;     
+}
+
+.setbut button{
+    border-radius:50px;
+    width: 90px;
+    height: 40px;
+    color:whitesmoke;
+    border-width:5px;
+   background-color:dimgray;
+   border-color: whitesmoke;}
+
+   /**third page**/
+.add{
+    height: 800px;
+    background-color: #2196f3;
+    background:linear-gradient(to top, #2196f3 0%,white 100% );
+}
+.contain{
+
+    color: dimgrey;
+   
+}
+.contain input{
+ width:200px;
+ height:40px;
+ border-width: 10px;
+ border-color: whitesmoke;
+}
+.contain button{
+
+ width:100px;
+ height:60px ;
+ margin-right: 10px;
+ border-width: 10px;
+ border-color:whitesmoke;
+ background-color: dimgray;
+ color: #2196f3;
+
+}
+
+/**Detial page**/
+.detail{
+
+    color:dimgrey;
+}
+.detail input{
+height: 50px;
+width: 250px;
+border-width:15px;
+border-color:dimgrey;
+border-radius:20px;
+
+
+}
+
+
+
+/** about page**/
+
+.logo{margin:auto;
+    padding:auto;}
+    
+    h3{color: #f6edde; 
+        padding-top:0%;
+    font-size: large;}
+    .page{padding:3% ;}
+    
+    #body{   background-color:#2196f3;
+        text-align: center;
+          padding:10px;
+          height: 800px;
+          background:linear-gradient(to bottom, #2196f3 0%,grey );
+    
+    justify-content: center;}
+    .act{color:dimgrey;}
+    h2{color:whitesmoke;}
+    p{color:whitesmoke;}
+    footer p{color:dimgrey;
+        font-size: large;
+    }
+    .page a{
+    color:whitesmoke;
+    text-decoration-line: none;
+}
+    button a{border-radius:50px;
+        
+        color:dimgrey ; 
+    }
+    button{background-color:dimgrey;}
+    #abt{
+
+        border-radius: 25px;
+        border-color: whitesmoke;
+        width: 150px;
+        height: 80px;
+    }
+    
+    .letter{
+        background-color: #f6edde;padding:10px ;}
+    .letter h3{color:dimgrey;
+    text-align: center;}
+    .letter h4{color:dimgrey;}
